@@ -1,0 +1,155 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-26T06:59:53.166Z",
+        "line": 4,
+        "name": "To test the valid login page of openmrs appln",
+        "description": "",
+        "id": "to-test-the-open-mrs-application;to-test-the-valid-login-page-of-openmrs-appln",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7251118500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome browser and url of the appln",
+            "match": {
+              "location": "step_defn.test_scripts1.open_chrome_browser_and_url_of_the_appln()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209668900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter valid username and valid password",
+            "match": {
+              "location": "step_defn.test_scripts1.enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1855296200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "step_defn.test_scripts1.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login to account",
+            "match": {
+              "location": "step_defn.test_scripts1.login_to_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@sc1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-26T07:00:02.574Z",
+        "line": 10,
+        "name": "To test the invalid login page of openmrs appln",
+        "description": "",
+        "id": "to-test-the-open-mrs-application;to-test-the-invalid-login-page-of-openmrs-appln",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7189610300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open chrome browser and url of the appln",
+            "match": {
+              "location": "step_defn.test_scripts1.open_chrome_browser_and_url_of_the_appln()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196042800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter invalid username and invalid password",
+            "match": {
+              "location": "step_defn.test_scripts1.enter_invalid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1161264600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click login button",
+            "match": {
+              "location": "step_defn.test_scripts1.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "error msg to be diplayed-invalid details",
+            "match": {
+              "location": "step_defn.test_scripts1.error_msg_to_be_diplayed_invalid_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@sc2"
+          }
+        ]
+      }
+    ],
+    "name": "To test the Open MRS application",
+    "description": "",
+    "id": "to-test-the-open-mrs-application",
+    "keyword": "Feature",
+    "uri": "file:Features/f1.feature",
+    "tags": [
+      {
+        "name": "@feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
